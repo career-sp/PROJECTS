@@ -1,0 +1,21 @@
+# we could directy install django through 
+>> python -m pip install Django==5.0; 
+
+but in professional work we don't directly install anything into local
+
+we prefer sand boxing, through which our main system will not be affected at all.
+
+
+## here we are using virtual environment:
+
+Name: uisng pip
+command: py -m venv .venv
+
+but here we are using: uv (faster than pip)
+
+pip install uv
+
+use: pip list
+
+Name: using uv
+command: uv venv // not working in my system.
